@@ -74,8 +74,9 @@ def story():
 #############################################################################################
     
     #copy-pasta provided below for your convenience (seriously, I can't make this any easier):  
-    #add_line("") #no wild cards                                                                
-    #add_line("{0}".format(var)) #with wild card
+    #my added lines
+    add_line("CS classes are so fun") #no wild cards                                                                
+    add_line("{0} likes to {1}".format(protagonist, v_0)) #with wild card
 
     
     return("\n".join(lines))
